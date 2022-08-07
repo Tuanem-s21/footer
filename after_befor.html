@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            text-decoration: none;
+            color: black;
+            display: inline-block;
+        }
+        a::after{
+            content: "";
+            height: 4px;
+            width: 10px;
+            background: orange;
+            display: block;
+            transition: .4s;
+            border-radius: 2px;
+
+        }
+        a:hover::after{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+        <a href="#">Lorem ipsum dolor sit amet. kmlk</a>
+</body>
+</html>

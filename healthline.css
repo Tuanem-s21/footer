@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.extra{
+    display: flex;
+    justify-content: center;
+    background: black;
+    width: 100%;
+    height: 8vh;
+}
+.extra .logo{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: rgb(126, 124, 124);
+}
+.extra .logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
+
+
+
+
+
+
+.extra .menu{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    background: aqua;
+    color: white;
+}
+.extra .menu .menu1{
+    display: flex;
+}
+.extra .menu .menu1 li{
+    list-style: none;
+    padding-left: 40px;
+}
+.extra .menu .menu1 li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+.extra .menu .menu1 .menu2{
+    display: none;
+}
+.extra .menu .menu1 .menu2 li{
+    list-style: none;
+}
+.extra .menu .menu1 li:hover .menu2{
+    display: block;
+}
+.extra .menu .menu1{
+    position: relative;
+}
+.extra .menu .menu1 .menu2{
+    position: absolute;
+    top: 100%;
+    left: 0%;
+}
+.extra .menu .menu1 .menu2 a{
+    color: black;
+}
+
+
+
+
+
+
+.extra .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: violet;
+    width: 10%;
+    color: white;
+}
+.extra .icon .all a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
